@@ -1,0 +1,30 @@
+{
+  "name": "wa-clone",
+  "version": "1.0.0",
+  "description": "Repo for project-based class.",
+  "main": "app.js",
+  "scripts": {
+    "build": "rm -R dist && babel src -d dist",
+    "babel-node": "babel-node",
+    "nodemon": "nodemon --exec npm run babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fertrig/wa-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fertrig/wa-clone/issues"
+  },
+  "homepage": "https://github.com/fertrig/wa-clone#readme",
+  "dependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-plugin-react": "^6.8.0",
+    "nodemon": "^1.11.0"
+  }
+}
